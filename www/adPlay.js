@@ -66,13 +66,13 @@ module.exports = {
                     {
                         var arr = result.split(',');
 
-                        self.onConsumablePurchased(arr[1]);
+                        self.onConsumablePurchased(arr[1],arr);
                     }
                     if (result.indexOf("onNonConsumablePurchased")>-1)
                     {
 
                         var arr = result.split(',');
-                        self.onNonConsumablePurchased(arr[1]);
+                        self.onNonConsumablePurchased(arr[1],arr);
                     }
                     if (result.indexOf("onPurchaseFail")>-1)
                     {
