@@ -44,10 +44,23 @@
       <activity android:name="ir.adPlay.bazaarIAB.IABActivity" android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize"></activity>
 		</config-file>
 		
-				
 		<source-file src="src/android/adPlayAndroidv2.4.jar" target-dir="libs" />
-<source-file src="src/android/AndroidStoreGooglePlay.jar" target-dir="libs" />
-<source-file src="src/android/bazaarIAB.jar" target-dir="libs" />
+		<source-file src="src/android/AndroidStoreGooglePlay.jar" target-dir="libs" />
+		
+		<source-file src="src/android/bazaarIAB/BuildConfig.java" target-dir="libs" />
+		<source-file src="src/android/bazaarIAB/adPlayIabListener.java" target-dir="libs" />
+		<source-file src="src/android/bazaarIAB/adPlayIAB.java" target-dir="libs" />
+		<source-file src="src/android/bazaarIAB/IABActivity.java" target-dir="libs" />
+		
+		<source-file src="src/android/bazaarIAB/util/SkuDetails.java" target-dir="libs" />
+		<source-file src="src/android/bazaarIAB/util/Security.java" target-dir="libs" />
+		<source-file src="src/android/bazaarIAB/util/Purchase.java" target-dir="libs" />
+		<source-file src="src/android/bazaarIAB/util/Inventory.java" target-dir="libs" />
+		<source-file src="src/android/bazaarIAB/util/IabResult.java" target-dir="libs" />
+		<source-file src="src/android/bazaarIAB/util/IabHelper.java" target-dir="libs" />
+		<source-file src="src/android/bazaarIAB/util/IabException.java" target-dir="libs" />
+		<source-file src="src/android/bazaarIAB/util/Base64DecoderException.java" target-dir="libs" />
+		<source-file src="src/android/bazaarIAB/util/Base64.java" target-dir="libs" />
 
 	</platform>
 
